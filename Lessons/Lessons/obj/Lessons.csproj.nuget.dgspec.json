@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Azyregos\\Desktop\\ASP.NET\\Lessons\\Lessons\\Lessons.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\ASP.NET\\Lesson_ASP.NET\\Lessons\\Lessons\\Lessons.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Azyregos\\Desktop\\ASP.NET\\Lessons\\Lessons\\Lessons.csproj": {
+    "C:\\Users\\Admin\\Desktop\\ASP.NET\\Lesson_ASP.NET\\Lessons\\Lessons\\Lessons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Azyregos\\Desktop\\ASP.NET\\Lessons\\Lessons\\Lessons.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\ASP.NET\\Lesson_ASP.NET\\Lessons\\Lessons\\Lessons.csproj",
         "projectName": "Lessons",
-        "projectPath": "C:\\Users\\Azyregos\\Desktop\\ASP.NET\\Lessons\\Lessons\\Lessons.csproj",
-        "packagesPath": "C:\\Users\\Azyregos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Azyregos\\Desktop\\ASP.NET\\Lessons\\Lessons\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\ASP.NET\\Lesson_ASP.NET\\Lessons\\Lessons\\Lessons.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\ASP.NET\\Lesson_ASP.NET\\Lessons\\Lessons\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Azyregos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
