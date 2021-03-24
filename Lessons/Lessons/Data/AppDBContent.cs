@@ -13,9 +13,11 @@ namespace Lessons.Data
 
         public DbSet<Category> Category { get; set; }
 
+        public DbSet<ShopCartItem> ShopCartItems { get; set; }
+
         public AppDBContent(DbContextOptions<AppDBContent> options): base(options)
         {
-            Database.EnsureCreated();
+            
         }
 
         
