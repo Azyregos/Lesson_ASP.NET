@@ -439,3 +439,5 @@ C:\Users\Admin\Desktop\ASP.NET\Lesson_ASP.NET\Lessons\Lessons\obj\Debug\net5.0\r
 C:\Users\Admin\Desktop\ASP.NET\Lesson_ASP.NET\Lessons\Lessons\obj\Debug\net5.0\Lessons.pdb
 C:\Users\Admin\Desktop\ASP.NET\Lesson_ASP.NET\Lessons\Lessons\obj\Debug\net5.0\Lessons.genruntimeconfig.cache
 C:\Users\Admin\Desktop\ASP.NET\Lesson_ASP.NET\Lessons\Lessons\obj\Debug\net5.0\Razor\Views\Shared\AllCars.cshtml.g.cs
+C:\Users\Admin\Desktop\ASP.NET\Lesson_ASP.NET\Lessons\Lessons\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Admin\Desktop\ASP.NET\Lesson_ASP.NET\Lessons\Lessons\obj\Debug\net5.0\Razor\Views\ShopCart\Index.cshtml.g.cs

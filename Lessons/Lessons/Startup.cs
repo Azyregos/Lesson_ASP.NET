@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using Lessons.Data;
 using Microsoft.EntityFrameworkCore;
 using Lessons.Data.Repository;
+using Lessons.Data.Models;
 
 namespace Lessons
 {
@@ -33,7 +34,14 @@ namespace Lessons
             services.AddDbContext<AppDBContent>(options => options.UseSqlServer(_confString.GetConnectionString("DefaultConnection")));
             services.AddTransient<IAllCars,CarRepository>();
             services.AddTransient<ICarsCategory, CategoryRepository>();
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped(sp => ShopCart.GetCart(sp));
+
             services.AddMvc(options => options.EnableEndpointRouting = false);
+
+            services.AddMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +50,7 @@ namespace Lessons
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
+            app.UseSession();
             app.UseMvcWithDefaultRoute();
             app.UseRouting();
 

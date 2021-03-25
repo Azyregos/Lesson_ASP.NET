@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,7 +33,7 @@ namespace Lessons.Data.Models
 
         }
 
-        public void AddToCart(Car car, int amout)
+        public void AddToCart(Car car)
         {
                 appDBContent.ShopCartItems.Add(new ShopCartItem {
                 ShopCartId = ShopCartId,
@@ -41,6 +42,11 @@ namespace Lessons.Data.Models
             });
 
             appDBContent.SaveChanges();
+        }
+
+        public List<ShopCartItem> getShopCartItem()
+        {
+            return appDBContent.ShopCartItems.Where(c => c.ShopCartId == ShopCartId).Include(s => s.car).ToList();
         }
     }
 }
