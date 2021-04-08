@@ -19,8 +19,9 @@ namespace Lessons.Controllers
             _allCategories = allCategories;
         }
 
-        public ViewResult List()
+        public ViewResult List(string category)
         {
+
             ViewBag.Title = "Страница с автомобилями";
             CarsListViewModel obj = new CarsListViewModel();
             obj.allCars = _allCars.Cars;
